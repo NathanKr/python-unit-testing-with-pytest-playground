@@ -9,6 +9,11 @@ Basic unit testing for python using pytest
 <li>invoke the tests using pytest on the project root</li>
 </ul>
 
+<h2>points of interest</h2>
+<ul>
+<li>in case you have few test file and you want to test specific file use : pytest test_file_name </li>
+</ul>
+
 <h2>Open issues</h2>
 <ul>
 <li>currently source and test files reside together. prefered structure is src and test.but then i need to use relative path in the test file and this requires advanced python that currently i did not used ---> this need to be solved</li>
