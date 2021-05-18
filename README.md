@@ -4,7 +4,7 @@ Basic unit testing for python using pytest
 <h2>Setup</h2>
 <ul>
 <li>install pytest using : pip install -U pytest</li>
-<li>write test files that start with test_ e.g. test_utils.py</li>
+<li>write test files with functions that start with test_ test_add()</li>
 <li>write assertions inside the test files</li>
 <li>invoke the tests using pytest on the project root</li>
 </ul>
