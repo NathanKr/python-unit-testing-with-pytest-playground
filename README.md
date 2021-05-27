@@ -1,13 +1,16 @@
 <h2>Motivation</h2>
 Basic unit testing for python using pytest
 
-<h2>Setup</h2>
+<h2>Setup pytest</h2>
 <ul>
 <li>install pytest using : pip install -U pytest</li>
 <li>write test files with file name that start with test_ and test functions that start with test_ e.g. test_add()</li>
 <li>write assertions inside the test files</li>
 <li>invoke the tests using pytest on the project root</li>
 </ul>
+
+<h2>Setup pytest-regression</h2>
+pip install pytest-regressions
 
 <h2>points of interest</h2>
 <ul>
