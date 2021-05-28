@@ -1,5 +1,12 @@
+import pandas as pd
+
 def add(num1,num2):
     return num1+num2
+
+def get_some_df()->pd.DataFrame:
+    df = pd.DataFrame([[1, 2, 3, 4], [4, 5, 6 , 7], [7, 8, 9 , 10]],
+                  columns=['col1', 'col2', 'col3' , 'col4'])
+    return df
 
 def get_grid_info():
     return {

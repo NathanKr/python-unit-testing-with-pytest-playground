@@ -17,7 +17,7 @@ pip install pytest-regressions
 <li>in case you have few test files and you want to test specific file use : pytest test_file_name </li>
 <li>notice that source files are under src directory and test files are under tests directory. These name are common but arbitraries</li>
 <li>__init__.py in src and tests directory make them modules which is required e.g. in test_utils to do : from src.utils </li>
-<li>the files for test_rgression are saved in a directory with the same name as the test module check tests/test_utils , do NOT remove this</li>
+<li>the files for the regression tests are saved in a directory with the same name as the test module check tests/test_utils , do NOT remove this</li>
 </ul>
 
 
