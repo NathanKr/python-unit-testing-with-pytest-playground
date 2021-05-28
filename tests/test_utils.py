@@ -9,4 +9,9 @@ def test_regression_get_grid_info(data_regression):
 
 def test_regression_get_some_df(dataframe_regression):
     df = get_some_df()
+    # this is working basically on numbers
     dataframe_regression.check(df)    
+
+def test_regression_get_some_html(data_regression):
+    table : str = get_some_html()
+    data_regression.check(table)

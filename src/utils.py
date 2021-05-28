@@ -3,6 +3,21 @@ import pandas as pd
 def add(num1,num2):
     return num1+num2
 
+def get_some_html()->str:
+    html : str = '<!DOCTYPE html>\
+        <html lang="en">\
+        <head>\
+            <meta charset="UTF-8">\
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">\
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+            <title>Document</title>\
+        </head>\
+        <body>\
+            <h1>Hello</h1>\
+        </body>\
+        </html>'
+    return html
+
 def get_some_df()->pd.DataFrame:
     df = pd.DataFrame([[1, 2, 3, 4], [4, 5, 6 , 7], [7, 8, 9 , 10]],
                   columns=['col1', 'col2', 'col3' , 'col4'])
